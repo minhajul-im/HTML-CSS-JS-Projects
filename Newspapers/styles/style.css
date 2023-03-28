@@ -1,0 +1,27 @@
+.color{
+  background-color: #e8e8e8;
+}
+.hover:hover{
+  text-decoration: underline;
+}
+li{
+  list-style: none;
+}
+li:hover{
+  color: #0DCAF0;
+}
+.img{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.spinner{
+  margin :245px 50%;
+}
+
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color:  #09cfdd;
+}

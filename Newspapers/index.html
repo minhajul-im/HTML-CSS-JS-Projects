@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhaka Times</title>
+  <!-- bootstrap link  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+  <!-- font awesome icon  -->
+  <script src="https://kit.fontawesome.com/fdeb6cc7f8.js" crossorigin="anonymous"></script>
+  <!-- css link  -->
+  <link rel="stylesheet" href="./styles/style.css">
+  
+</head>
+<body class="color">
+  <header class="container">
+    <div class="container fixed-top">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#"> <span class="text-info">Dhaka</span> <span class="bg-info text-light px-1 pb-1 rounded">Times</span> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNavDropdown">
+            <ul class="navbar-nav fw-semibold fs-6">
+              <li class="nav-item hover">
+                <a id="news" class="nav-link active text-info" aria-current="page" href="#">News</a>
+              </li>
+              <li class="nav-item hover">
+                <a id="blog" type="button" data-bs-toggle="modal" data-bs-target="#blog-modal" class="nav-link active text-info" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="mt-5  d-none d-lg-block">
+      <hr class=" mx-3 mb-0">
+      <ul class="m-0 p-3 d-flex justify-content-between fw-semibold">
+        <li class="nav-item">
+          <a class="nav-link " href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Breaking news</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Regular news</a>
+        </li>
+        <li class="nav-item">
+          <a id="international-news" class="nav-link" href="#">International news</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Entertainment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Culture</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Arts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">All news</a>
+        </li>
+      </ul>
+    </div>
+
+  </header>
+  <main class=" container">
+   <!-- news count section  -->
+    <div class="m-lg-2 d-none d-lg-block news-count p-2 bg-light rounded">
+      <span id="count" class="ps-2"> 0 </span> 
+      <span > International news </span>
+    </div>
+
+     <!-- Entertainment news -->
+    <section class="" id="news-section">
+    </section>
+
+      <!-- spinner -->
+    <section id="spinner" class="d-none ">
+      <div  class="spinner-border text-info spinner" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </section>
+
+    <!-- modal section  -->
+    <div class="modal fade" id="blog-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="blog-modalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-info" id="blog-modalLabel">Blog Post</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h6>What is the difference between map, filter, find, and forEach?</h6>
+            <p class="text-secondary">
+              Map creates a new array from calling a function for every array element. Map calls a function once for each element in an array. Map does not execute the function for empty elements. Map does not change the original array.
+
+              <br><br>
+
+              The filter method creates a new array filled with elements that pass a test provided by a function. The filter method does not execute the function for empty elements. The filter method does not change the original array.
+
+              <br> <br>
+
+              The find method returns the first element in the provided array that satisfies the provided testing function. If no values satisfy the testing function, undefined is returned.
+              <br> <br>
+              Definition and Usage. The forEach() method calls a function for each element in an array. The forEach() method is not executed for empty elements
+            </p>
+            <br> <br>
+            <h6>Var, Let, and Const – What's the Difference?</h6>
+            <p class="text-secondary">
+              var is function-scoped while let and const are block-scoped. var variables can be reassigned while let and const variables can not. var variables are declared using the var keyword while let and const variables are declared using the let and const keywords respectively.
+            </p>
+            <br> <br>
+            <h6>The Difference Between Regular Functions and Arrow Functions!</h6>
+            <p class="text-secondary">
+              Since regular functions are constructible, they can be called using the new keyword. However, the arrow functions are only callable and not constructible, i.e arrow functions can never be used as constructor functions. Hence, they can never be invoked with the new keyword.
+            </p>
+            <br> <br>
+            <h6>What are template literals JavaScript?</h6>
+            <p class="text-secondary">
+              Template literals are literals delimited with backtick characters, allowing for multi-line strings, string interpolation with embedded expressions, and special constructs called tagged templates.
+            </p>
+            
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info text-light" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  </main>
+
+
+  <footer style="margin-top: 180px;">
+    <div class="footer d-flex justify-content-center align-items-center ">
+      <p><i>&copy;copyright by Dhaka Times</i></p>
+    </div>
+  </footer>
+
+  <!-- bootstrap link js  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- javascript link  -->
+  <script src="./app/app.js"></script>
+</body>
+</html>
