@@ -1,0 +1,117 @@
+body{
+    background: #3C2A21;
+    margin: 0;
+    padding: 67px 0;
+}
+main{
+    height: 440px;
+    width: 760px;
+    margin: auto;
+    border-radius: 14px;
+    background-color: #497174;
+    display: flex;
+    justify-content:space-around;
+}
+.player{
+    padding: 4rem;
+    width: 100%;
+}
+.player-active{
+    background-color: #125B50;
+    transition-duration: 1.5s;
+}
+.player-0{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.player-1{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.player-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.player-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+.score{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem 0 3.5rem;
+    font-weight:700;
+    color: #ffffff;
+}
+.current{
+    height: 100px;
+    width: 190px;
+    background-color: #79398d;
+    margin: 2rem auto;
+    border-radius: .5rem;
+}
+.current-label, .current-score{
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+.current-label{
+ padding-top: 1.2rem;
+}
+.current-score{
+    font-size: 2rem;
+    padding: .7rem 0 1.1rem;
+}
+/* dice  */
+.dice{
+    z-index: +1;
+    position: absolute;
+    margin-top: 60px;
+    width: 324px;
+    height: 200px;
+}
+/* btn  */
+.btn{
+    padding: .6rem 1.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 600;
+    z-index: +2;
+    position: absolute;
+    cursor: pointer;
+}
+.btn-new{
+    margin-top: 1.5rem;
+}
+
+.btn-roll{
+    margin-top: 250px;
+}
+.btn-hold{
+    margin-top: 305px ;
+}
+.btn-new:hover,.btn-roll:hover,.btn-hold:hover{
+    background-color:#56378D;
+    color: aliceblue;
+    transition-duration: .5s;
+}
+.hidden{
+    display: none;
+}
+.player--winner{
+    background-color: #082032;
+    background-image:url(./images/winner-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
