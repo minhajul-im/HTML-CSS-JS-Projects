@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* header start */
+.header {
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title-header {
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.paragraph-header {
+    text-align: center;
+    color: #fff;
+    padding-top: 1rem;
+    text-transform: capitalize;
+    padding-bottom: 1.5rem;
+    letter-spacing: .7px;
+}
+
+.donate-button {
+    display: inline-block;
+    margin-left: 42%;
+    padding: .7rem 1.5rem;
+    background-color: rgb(3, 3, 3);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+}
+
+.donate-button:hover {
+    color: rgb(9, 9, 9);
+    border: 1px solid rgb(1, 1, 1);
+    background-color: #fff;
+}
+
+/* header end */
+
+/* start donate today section */
+.title-donate {
+    text-align: center;
+    margin-top: 80px;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+
+.paragraph-donate {
+    text-align: center;
+    margin: 20px 0 60px 0;
+}
+
+/* end donate section */
+
+/*start account section */
+.amount-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.btn-tk {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(245, 244, 244);
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    outline: none;
+    outline-offset: -2px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn-tk:hover {
+    background-color: rgb(254, 242, 240);
+    border: 2px solid salmon;
+}
+
+.input-amount {
+    display: block;
+    text-align: center;
+    margin: 10px 41.5%;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: text;
+}
+
+.btn-donate-2 {
+    margin: 10px 0 3rem 41%;
+}
+
+.x {
+    padding: .5rem 2.5rem;
+    font-weight: 600;
+    background-color: rgb(250, 154, 144);
+    border: 1px solid salmon;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.x:hover {
+    background-color: rgb(239, 211, 208);
+    color: black;
+    border: 1px solid black;
+}
+
+/*end account section */
+
+/*start item section */
+.items {
+    display: flex;
+    margin: 3rem 10px;
+    justify-content: center;
+}
+
+.family {
+    height: 280px;
+    width: 280px;
+    margin-left: 1rem;
+    border-radius: 4px;
+}
+
+.family>span {
+    padding: 2rem 1.7rem;
+    font-size: 2.5rem;
+}
+
+.a {
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+
+.b {
+    padding: 1rem;
+}
+
+.food {
+    background-color: rgb(249, 249, 231);
+}
+
+.shelter {
+    background-color: rgb(224, 250, 241);
+}
+
+.education {
+    background-color: rgb(252, 231, 238);
+}
+
+/*end item section */
+
+/* start section img * text */
+.section-img-text {
+    display: flex;
+    justify-content: center;
+}
+
+.j {
+    height: 360px;
+    width: 360px;
+    margin: 4rem 1.5rem;
+}
+
+.h {
+    margin-top: 2rem
+}
+
+.p {
+    margin: 1rem;
+}
+
+.btn-3 {
+    margin: 1rem;
+}
+
+.img2 {
+    height: 350px;
+    width: 350px;
+}
+
+/* end section img * text */
+
+/* start subscribe section */
+.email-btn {
+    height: 100px;
+    width: 500px;
+    background-color: rgb(248, 216, 216);
+    margin-left: 50%;
+    margin-top: 10%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+}
+
+.center {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.k {
+    border-radius: 3px;
+    border: none;
+}
+
+.email {
+    padding: .5rem 3rem;
+}
+
+.sub {
+    background-color: salmon;
+    color: #fff;
+    font-weight: 600;
+    padding: .5rem 2rem;
+    cursor: pointer;
+}
+
+.sub:hover {
+    background-color: rgb(239, 211, 208);
+    color: black;
+    border: 1px solid black;
+}
+
+/* end subscribe function */
+
+/* start footer section */
+.footer-section {
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+
+.footer {
+    margin-left: 41%;
+    margin-top: 80px;
+
+}
+
+.italic {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 56px 0 0 0;
+}
+
+.last-line {
+    color: #fff;
+}
+
+/* end footer section */
