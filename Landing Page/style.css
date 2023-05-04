@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#F3F1FF;
+}
+/*--------------------------
+         start navber style
+-------------------------- */
+.navber{
+    height: 94px;
+   background: #562EFF; 
+   
+}
+.all-menus{
+    display: flex;
+    height: 94px;
+    width: 870px;
+    margin: 0 auto;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.mgs{
+    font-size: 3rem;
+    color: #fff;
+}
+.logo-title{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 1rem;
+}
+.menus{
+    width: 870px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.anchor{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 2.2rem;
+    font-size: 1rem;
+}
+.img> a> img{
+    height: 51px;
+    width: 51px;
+}
+/* -------------------
+    navber style end 
+--------------------- */
+
+/*-----------------------
+        section start style
+--------------------------- */
+.section-container{
+    width: 870px;
+    margin: 0 auto;
+}
+.section-first{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 1.5rem;
+}
+/* .top-players{
+ 
+} */
+.players-title{
+    color: #562EFF;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.img>img{
+    height: 56px;
+    width: 56px;
+    
+}
+.name>h5{
+    font-size: 18px;
+    color: #000000;
+    margin-left: 1rem;
+}
+hr{
+    margin-top: 30px;
+    border: 1px solid #D1D1D1;
+}
+/*-----------------------
+        section end style
+--------------------------- */
+/* start second section  */
+/* .top-blogs{
+    
+} */
+.title-blog{
+    margin-top: 2rem;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 1.6rem;
+}
+.blog{
+    display: flex;
+}
+.img-blog>img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 1.5rem
+}
+.blog-name{
+    font-size: 20px;
+    color: #000000;
+}
+.author{
+    color: #9F9F9F;
+    font-size: 1rem;
+}
+.author>a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 1rem;
+}
+
+/* ens second section  */
+
+/* third section start */
+
+.section-second{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 1.5rem;
+}
+.course-title{
+    color: #562EFF;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.all-course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.course{
+    height: 270px;
+    width: 253px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+.img-course>img{
+    width: 224.38px;
+    height: 105.51px;
+}
+/* .course-info{
+
+} */
+.course-thumbnail{
+    color: #1E1E1E;
+    font-size: 21px;
+}
+.instructor{
+    color: #ED6B4F;
+    font-size: 14px;
+}
+/* .ratting{
+
+} */
+.star{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.star-color{
+   color: #FFC014;
+}
+.star-gray{
+    color: #AEAEAE;;
+}
+.result{
+    color: #A2A2A2;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 80px;
+    background-color: #fdc9cf;
+    font-size: 12px;
+    color: #FF4A60;
+    border-radius: 50px;
+    padding-right: 5px;
+}
+/* third section start */
+
+/* start footer  */
+.footer{
+    height: 290px;
+    width: 100%;
+    background-color: #562EFF;
+}
+.footer>i{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+.all-items{
+    width: 870px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+
+p{
+color: #fff;
+font-size: 1.2rem;
+padding-bottom:.7rem;
+}
+
+.a,.x{
+    font-size: 1.7rem;
+    background-color: #FFFFFF;
+}
+.follow>.fb{
+    background-color: #FFFFFF;
+    color: #4267B2;
+}
+.follow>.x{
+    margin-right: 1rem;
+}
+.contact-me> .a{
+    margin-right: 1rem;
+}
+.copyright{
+    text-align: center;
+    color: #ffffff;
+}
+/* start footer  */
+
+/* smallest responsive design  start*/
+@media screen and (max-width: 576px) {
+    .all-items{
+        display: block;
+    }
+}
+
+/* smallest responsive design end */
+
