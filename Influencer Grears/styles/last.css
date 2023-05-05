@@ -1,0 +1,113 @@
+/* start features section -----------------------------------*/
+.features{
+    display: grid;
+    grid-template-columns: 440px 629px ;
+    grid-column-gap: 95px;
+    width: 1110px;
+    height: 270px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.img-feature-section>img{
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+}
+.feature-info{
+    width: 629px;
+    height: 224px;
+}
+.feature-title-box{
+    padding-bottom: .8rem;
+}
+.feature-title{
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+}
+.feature-details{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+
+.join{
+    width: 155px;
+    height: 44px;
+    border: 2px solid #E02C6D;
+    background-color: #E02C6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 25px;
+}
+.join-btn{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: aliceblue;
+}
+/* start features section -----------------------------------*/
+
+/* start smallest screen |------------------------------------ */
+@media only screen and (max-width: 576px) {
+    .features{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: none;
+        margin: 0 auto;
+        
+    }
+    .img-feature-section{
+        margin: 0 auto;
+    }
+    .img-feature-section>img{
+        width: 299px;
+        height: 188px;
+    }
+    .feature-info{
+        width: 339px;
+        height: 224px;
+        margin: 0 auto;
+        padding-top: 50px;  
+        padding-bottom: 250px;      
+    } 
+    .feature-details{
+        margin-top: 10px;
+    }    
+    .join{
+       margin: 25px auto;
+    }
+}
+/* start smallest screen |------------------------------------ */
+
+/* start tablets screen -------------------------------------- */
+@media only screen and (min-width: 576px) and (max-width: 920px) {
+    .features {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: none;
+        margin: 0 auto;
+    }
+    .img-feature-section {
+        margin: 0 auto;
+    }
+    .feature-info {
+        margin: 50px auto;
+    }
+    .feature-title-box{
+        text-align: center;
+    }
+    .feature-details-box{
+        text-align: center;
+    }
+    .join {
+        margin: 25px auto;
+    }  
+}
+/* start tablets screen -------------------------------------- */

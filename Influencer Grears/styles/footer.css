@@ -1,0 +1,57 @@
+/* start footer section-------------------------------------- */
+
+.footer{
+    width: 100%;
+    height: 239px;
+    background-color: #0A0826;
+    margin-top: 250px;
+}
+.all-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.footer-title>h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-bottom: .8rem;
+}
+.copyright>p{
+    font-weight: 700;
+    font-size: 14px;
+    color: #D9DBE1;
+    padding-bottom: .7rem;
+}
+.follow>h5{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #D9DBE1;
+    padding-bottom: 1rem;
+}
+.social-icon>a>i{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    width: 32px;
+    height: 32px;
+}
+
+/* end footer section-------------------------------------- */
+
+/* start smallest screen ---------------------------------- */
+@media only screen and (max-width: 576px) {
+    .footer{
+        width: 100%;
+        margin-top: 550px;
+    }
+}
+
+/* start smallest screen ---------------------------------- */
+@media only screen and (min-width: 577px) and (max-width: 920px) {
+    .footer {
+        width: 100%;
+        margin-top: 480px;
+    }
+}

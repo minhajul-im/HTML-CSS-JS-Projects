@@ -1,0 +1,107 @@
+/* start brand section ----------------------------- */
+.brand-section{
+    width: 1110px;
+    margin: 50px auto;
+    height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 36px 62px;
+    border-top: 1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA;
+}
+.brand>.ali{
+    width: 57.05px;
+    height: 31.06px;
+}
+.brand>.ama{
+    width: 70px;
+    height: 23px;
+}
+.brand>.dar{
+    width: 84px;
+    height: 22px;
+}
+.brand>.eba{
+    width: 99.12px;
+    height: 32.61px;
+}
+.brand>.rak{
+    width: 97.06px;
+    height: 28px;
+}
+.brand>.wal{
+    width: 111px;
+    height: 26px;
+}
+.brand>.tar{
+    width: 91px;
+    height: 38px;
+}
+/* end brand section ----------------------------- */
+
+ /* start smallest screen  -------------------------*/
+@media screen and (max-width: 576px) {
+    .brand-section{
+        width: 275.21px;
+        height: 61.46px;
+        border-top: 1px solid #AAAAAA;
+        border-bottom: 1px solid #AAAAAA;
+        padding: 0;
+        align-items: center;
+        margin: 42px auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .brand>.ali {
+        width: 33.38px;
+        height: 18.84px;
+       
+    }
+    .brand>.ama {
+        width: 60px;
+        height: 20px;
+    }
+    .brand>.dar {
+        width: 40.17px;
+        height: 15.24px;
+    }
+    .brand>.eba {
+        height: 17.75px;
+        left: 273.59px;
+    }
+    .brand>.rak {
+        width: 58.86px;
+        height: 16.98px;
+    }
+    .brand>.wal {
+        width: 67.31px;
+        height: 15.77px;
+    }
+    .brand>.tar {
+        width: 67.68px;
+        height: 23.36px;;
+    }
+}
+/* end smallest screen ---------------------------- */
+
+/* start tablet screen  ____________________________ */
+@media only screen and (min-width: 577px)and (max-width: 920px) {
+    .brand-section {
+        width: 650px;
+        height: 80px;
+        border-top: 1px solid #AAAAAA;
+        border-bottom: 1px solid #AAAAAA;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .brand{
+        padding: 0 .8rem;
+    }
+}
+
+/* start tablet screen  ____________________________ */

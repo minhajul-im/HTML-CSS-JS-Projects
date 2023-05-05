@@ -1,0 +1,111 @@
+/* start products section----------------------------------- */
+
+.products-section {
+    width: 1047px;
+    margin: 0 auto;
+}
+.product-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    margin: 30px 0;
+}
+.see-more{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.see-more>h6{
+    margin: 50px 0; 
+    font-weight: 700;
+    font-size: 16px;
+    color: #e02c6dde;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 1rem;
+}
+.product{
+    width: 329px;
+    height: 495px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 1rem;
+}
+.img> img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+.product-name{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+}
+.price{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 6px;
+    color: #787885;
+}
+.golden{
+    color: #FB8200;
+}
+.point{
+    margin-left: .5rem;
+    color: #5E6366;
+}
+.product-details{
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+    margin-top: 3px;
+}
+/* end products section  ----------------------------------- */
+
+
+/* start smallest screen ----------------------------------- */
+@media only screen and (max-width: 576px) {
+    .products-section{
+        width: 100%;
+    }
+    .product-title{
+        font-size: 16px;
+    }
+    .see-more {
+        justify-content: center;
+    }
+    .products {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 2rem;    
+    }
+    .product {
+        margin: 0 auto;
+    }
+}
+/* start smallest screen ----------------------------------- */
+
+/* start tablet screen ------------------------------------- */
+@media only screen and (min-width:577px) and (max-width: 920px) {
+    .products-section {
+        width: 100%;
+    }
+    .see-more {
+        justify-content: center;
+    }
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2,329px);
+        grid-row-gap: 2rem;
+        grid-column-gap: 1.5rem;
+        justify-content: center;
+    }
+}
+
+/* start tablet screen ------------------------------------- */
