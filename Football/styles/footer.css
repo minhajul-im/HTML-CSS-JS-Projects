@@ -1,0 +1,122 @@
+footer{
+    width: 100%;
+    height: 500px;
+    background: #161616;
+}
+.footer{
+    margin: 0 140px;
+}   
+.goal{
+    padding: 110px 0 45px 0;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 50px;
+}
+.setting-follow-contact{   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.settings{
+    display: grid;
+    justify-content: center;
+}
+
+.x>a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+}
+.x>a:hover{
+    color: #bb17e4;
+    transition-duration: 1s;
+    text-decoration: underline;
+}
+.goal-live{
+    display: flex;
+    align-items: center;
+}
+.goal-live > img{
+    height: 1.7rem;
+}
+
+.follow{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+.i{
+    padding: 1.5rem;
+}
+.m{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+.m:hover{
+    color: #4282e1;
+    transition-duration: 1s;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact>a, .about>a{
+    font-size: 1rem;
+    color: #B9B9B9;
+    font-weight: 400;
+}
+.contact>a:hover, .about>a:hover{
+    color: #bb17e4;
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+.copy{
+    margin-top: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+}
+/* start mobile screen  -----------------------------------*/
+@media only screen and (max-width: 576px) {
+    footer{
+        height: 660px;
+    }
+    .footer{
+        margin: 0 5%
+    } 
+    .goal{
+        padding: 40px 0;
+        font-weight: 600;
+        font-size: 1.7rem;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .setting-follow-contact{   
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .follow{
+        margin-top: 2rem;
+    }
+    .x{
+        text-align: center;
+    }
+    .goal-live{
+        padding-left: .9rem;
+    }
+
+}

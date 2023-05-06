@@ -1,0 +1,245 @@
+/* start header  section ---------------------------*/
+.all {
+    margin: 8% 10%;
+}
+
+.header-section {
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes text {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 700px;
+    }
+}
+
+.header-details {
+    width: 531px;
+    height: 424px;
+    padding-left: 4.5rem;
+    animation: text 1.5s ease-in-out 1s 1 alternate-reverse;
+    position: relative;
+    animation-play-state: running;
+}
+
+.header-title>h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 80px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.header-pera>p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.watch-live {
+    border-radius: 5px;
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.watch-live>a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.watch-live:hover{
+    background-color: #ea9df6;
+    transition-duration: 1s;
+}
+.watch-live > a:hover{
+    color: #161616;
+    transition-duration: 1s;
+}
+
+.header-image {
+    width: 581px;
+    height: 613px;
+}
+
+@keyframes image-ani {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: -700px;
+    }
+}
+
+.img {
+    width: 100%;
+    animation: image-ani 1.5s ease-in-out 1s 1 alternate-reverse;
+    animation-play-state: running;
+    position: relative;
+
+}
+
+/* start header  section ---------------------------*/
+
+
+/* start tablet size-------------------------------- */
+@media only screen and (min-width: 577px) and (max-width: 920px) {
+    .all {
+        margin: 5% 5.6%;
+    }
+
+    .header-section {
+        display: flex;
+        justify-content: space-evenly;
+        height: 420px;
+        align-items: center;
+    }
+
+    @keyframes text {
+        0% {
+            top: 0;
+            left: 0;
+        }
+
+        100% {
+            top: 0;
+            left: 400px;
+        }
+    }
+
+    .header-details {
+        margin: 0;
+        width: 316px;
+        height: 320px;
+        padding: 1px 1px 0 1px;
+    }
+
+    .header-title>h1 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+        padding-bottom: .5rem;
+    }
+
+    .header-pera>p {
+        font-weight: 400;
+        letter-spacing: none;
+        font-size: 14px;
+        line-height: 1.5rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .watch-live {
+        width: 161px;
+        height: 48px;
+        padding: 1px 0;
+    }
+
+    @keyframes image-ani {
+        0% {
+            top: 0;
+            left: 0;
+        }
+
+        100% {
+            top: 0;
+            left: -400px;
+        }
+    }
+
+    .header-image {
+        width: 380px;
+        height: 360px;
+        padding: 1px 11px 0 0;
+        margin: 0;
+    }
+
+    .img {
+        width: 100%;
+    }
+}
+
+/* end tablet size-------------------------------- */
+
+
+/* start mobile size-------------------------------- */
+@media only screen and (max-width: 576px) {
+    .all{
+        margin: 5%;
+    }
+
+    .header-section {
+        border-radius: 10px;
+        display: block;
+        height: 536px;
+    }
+
+    .header-details {
+        padding: 28px 0;
+        width: 258px;
+        height: 250px;
+        margin: 0 auto;
+        animation: none;
+    }
+
+    .header-title>h1 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        padding: .6rem 0;
+    }
+
+    .header-pera>p {
+        font-weight: 400;
+        letter-spacing: none;
+        padding-bottom: .9rem;
+        font-size: 12px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .watch-live {
+        width: 161px;
+        height: 40px;
+        border-radius: 5px;
+        margin: 3px auto;
+    }
+
+
+    .header-image {
+        width: 233px;
+        height: 245px;
+        margin: 2.5rem auto;
+
+    }
+
+    .img {
+        width: 100%;
+        animation: none;
+    }
+}
+
+/* end mobile size --------------------------------- */

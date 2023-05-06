@@ -1,0 +1,40 @@
+
+.all-match{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 14px;
+}
+.match{
+    width: 270px;
+    height: 235px;
+    border: 1px solid #e3e1e1;
+    padding: 53px 20px;
+    border-radius: 5px;
+}
+.flags{
+    display: flex;
+    justify-content: space-between;
+}
+.flag>img{
+    width: 80px;
+    height: 50px;
+}
+.match-info{
+    margin-top: 1.2rem;
+}
+.match-title,.match-time{
+    text-align: center;
+}
+
+/* start mobile screen  */
+@media only screen and (max-width: 576px) {
+    .all-match{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 14px;
+        justify-content: center;
+    }
+    .match{
+        margin: 10px auto;
+    }
+}
