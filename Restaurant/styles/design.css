@@ -1,0 +1,16 @@
+/* nav start  */
+.logo-size{
+    width: 3.4rem;
+}
+li>a:hover{
+    text-decoration: underline;
+}
+.header-section{
+    margin-top: 120px;
+}
+.about-section{
+    margin: 100px 0;
+}
+.hover-icon>i:hover{
+    color: black;
+}
