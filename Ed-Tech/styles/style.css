@@ -1,0 +1,26 @@
+/* start nav ber section */
+li:hover{
+    text-decoration: underline;
+}
+.color-tech{
+    color: #211e82;
+}
+/* header img section  */
+.blur-img{
+    filter: blur(4px);
+}
+.img-course{
+    width: 300px;
+    height: 230px;
+}
+/* start course section  */
+    .card-width{
+      width: 648px;
+    }
+    .img-width{
+        width: 100%;
+    }
+/* start register-section */
+.register-section{
+    margin: 150px 0 120px;
+}
