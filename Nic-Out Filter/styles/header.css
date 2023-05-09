@@ -1,0 +1,107 @@
+
+.image>img{
+    height: 50px;
+    width: 50px;
+}
+.nav-bar > a{
+    color: #fff;
+}
+.a{
+    letter-spacing: 1px;
+}
+.a:hover{
+    text-decoration: underline;
+}
+.i{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+.i:hover{
+    color: black;
+    text-decoration: underline;
+}
+/* start video section  */
+.title-header,.title-info,.title-last{
+    letter-spacing: 1px;
+}
+.video{
+    margin: 76px 0 0 0;
+}
+.bgColor{
+    background: #283469;
+}
+.media-video{
+    width: 478px;
+    height: 380px; 
+}
+.card-height{
+    height: 409px;
+}
+.card-bd{
+    margin-bottom: 7.5rem;
+}
+.shop-section{
+    background-color: #f7f7f7;
+    padding-bottom: 2rem;
+}
+.work-title{
+    padding-top: 90px;
+    letter-spacing: 1px;
+}
+.work-info{
+    letter-spacing: 1px;
+}
+.about-info{
+    letter-spacing: 1px;
+}
+.btn-about:hover{
+    color: black;
+}
+.question {
+    margin: 100px 0 0 0;
+}
+.box-question{
+    padding: 0 180px;
+}
+.clients-feedback{
+    padding: 100px 0;
+}
+.clients-info{
+    height: 300px;
+}
+.carousel-top{
+    padding: 100px 0 0 0;
+}
+.mail{
+    margin: 100px 0;
+}
+.contact-us{
+    margin: 100px 0;
+}
+.icon-style{
+    font-size: 2rem;
+}
+.footer{
+    height: 400px;
+}
+.footer-padding{
+    padding-top: 100px;
+}
+.social-icon{
+    font-size: 1.7rem;
+}
+@media screen and (max-width: 991px) {
+    .box-question{
+        padding: 0 90px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .media-video{
+        width: 378px;
+        height: 380px; 
+    }
+    .box-question{
+        padding: 0 65px;
+    }
+}
