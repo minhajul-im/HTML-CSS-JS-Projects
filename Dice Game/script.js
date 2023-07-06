@@ -83,5 +83,6 @@ btnHold.addEventListener('click', function () {
         }
     }
 })
+
 // reset btn 
 btnNew.addEventListener('click', init);
