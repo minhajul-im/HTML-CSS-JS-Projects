@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inside Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl font-bold text-center my-6 text-sky-500 ">Bank Project</h1>
+    </header>
+    <main>
+        <section   class=" w-3/4 mx-auto rounded">
+            <h2 class="text-3xl font-semibold text-center text-teal-600 my-6">This is Your Mooooooney</h2>
+            <div class="grid grid-cols-3 gap-5 mt-12 text-center">
+                <div class="bg-indigo-600 rounded py-6 ">
+                    <h4 class="text-white text-3xl font-semibold mt-3">Deposit</h4>
+                    <h4 class="text-white text-5xl font-bold mt-3">$<span id="deposit-id">00</span></h4>
+                </div>
+                <div class="bg-indigo-600 rounded py-6">
+                    <h4 class="text-white text-3xl font-semibold mt-3">Balance</h4>
+                    <h4 class="text-white text-5xl font-bold mt-3">$<span id="balance">1000</span></h4>
+                </div>
+                <div class="bg-indigo-600 rounded py-6">
+                    <h4 class="text-white text-3xl font-semibold mt-3">Withdraw</h4>
+                    <h4 class="text-white text-5xl font-bold mt-3">$<span id="withdraw">00</span></h4>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-5 my-8">
+                <div class="bg-rose-400 px-5 rounded">
+                    <h4 class="text-lg font-semibold text-white mt-8 mb-4">You Can Deposit Your Money.</h4>
+                    <input id="deposit-input" class="w-80 px-3 py-2 rounded my-2 block" type="text" placeholder="Write Your Money">
+                    <button class="uppercase bg-indigo-600 text-neutral-50 px-7 py-2 rounded-lg mb-6 font-medium hover:bg-indigo-900 my-4" id="deposit-btn">Deposit</button>
+                </div>
+                <div class="bg-rose-400 px-5 rounded">
+                    <h4 class="text-lg font-semibold text-white mt-8 mb-4">You Can Withdraw Your Money.</h4>
+                    <input id="input-withdraw" class="w-80 px-3 py-2 rounded my-2 block" type="text" placeholder="Write Your Money">
+                    <button id="withdraw-btn" class="uppercase bg-indigo-600 text-neutral-50 px-7 py-2 rounded-lg mb-6 font-medium hover:bg-indigo-900 my-4">Withdraw</button>
+                </div>
+            </div>
+        </section>
+        <p class="italic text-lg text-center mt-5">&copy; copyright by <span class="text-sky-800 font-semibold">MinhaJ</span></p>
+    </main>
+    <script src="./js/deposit.js"></script>
+    <script src="./js/withdraw.js"></script>
+</body>
+</html>
