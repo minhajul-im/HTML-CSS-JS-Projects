@@ -2,4 +2,4 @@
 
 # Live link below click (alt + click)
 
-# https://login-bank-project.netlify.app/
+# https://dice-game-win.netlify.app/
