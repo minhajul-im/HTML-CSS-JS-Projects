@@ -1,3 +1,5 @@
-# please => alt + click then open the new tab
+# Shopping Cart Project
+
+# Live link below click (alt + click)
 
 # https://custom-e-commerce.netlify.app/
