@@ -1,0 +1,75 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar section  */
+.cart-hidden {
+  display: none;
+}
+.cart-icon {
+  cursor: pointer;
+  color: #fff;
+}
+
+/* notification */
+.notification {
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  display: none;
+}
+
+.curPointer {
+  cursor: pointer;
+}
+
+/* image customize */
+.imageClass {
+  height: 70%;
+  width: 100%;
+}
+.card-Sec {
+  width: 600px;
+}
+
+/* footer section  */
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.footer h5 {
+  text-decoration: none;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-links li a {
+  color: #ffffff;
+  text-decoration: none;
+}
